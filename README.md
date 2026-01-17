@@ -1,42 +1,70 @@
-# IKT2_GIT_01
-
-Ez a repository egy tanulmányi célú GIT gyakorlat megvalósítását tartalmazza.
-A feladat célja egy egyszerű, reszponzív HTML + CSS alapú statikus weboldal elkészítése külső könyvtárak használata nélkül, miközben a fejlesztés több ágon (branch) történik, sűrű commit-okkal. A külön ágakon elkészült munkák Pull Request segítségével kerülnek beolvasztásra a main ágba.
-
-A projekt során a parancssori GIT használata, a GitHub Pull Request folyamata, valamint az alap webfejlesztési technológiák (HTML, CSS, JavaScript) kerülnek alkalmazásra.
-
+Webfejlesztési alaptechnológiák
 Felhasznált technológiák
+
 GIT
+
 HTML
+
 CSS3
+
 JavaScript
-GIT:
-Egy verziókezelő rendszer, amely lehetővé teszi a forráskód változásainak nyomon követését. Segítségével több fejlesztő dolgozhat ugyanazon a projekten, külön ágakon, majd a változások biztonságosan összevonhatók. A GIT támogatja a commit, branch és merge műveleteket, amelyek alapvetőek a modern szoftverfejlesztésben.
 
-git status
+GIT
+
+A GIT egy verziókezelő rendszer, amely lehetővé teszi a forráskód változásainak nyomon követését.
+Segít több fejlesztő egyidejű munkájának összehangolásában, valamint a hibák visszakövetésében.
+Fontos alapfogalmai: repository, commit, branch, merge.
+
+Technológia	Értékelés
+GIT	⭐⭐⭐⭐☆
+git init
 git add .
-git commit -m "Initial commit"
-HTML: Egy leíró jellegű jelölőnyelv, amelyet a böngészők értelmeznek és megjelenítenek. A HTML határozza meg egy weboldal szerkezetét, tartalmát és szemantikus elemeit. Az oldal elemei úgynevezett tagek segítségével épülnek fel.
+git commit -m "Első commit"
 
+HTML
+
+A HTML egy leíró nyelv, amelyet a böngészők értelmeznek, és amely meghatározza egy weboldal szerkezetét és tartalmát.
+Az oldal elemei úgynevezett tagekből állnak (<tagnev></tagnev>).
+A HTML adja a weboldal alapját.
+
+Technológia	Értékelés
+HTML	⭐⭐⭐⭐⭐
 <!DOCTYPE html>
-<html lang="hu">
+<html>
   <head>
     <title>Példa oldal</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <h1>Hello világ!</h1>
+    <p>Ez egy egyszerű HTML példa.</p>
   </body>
 </html>
-CSS3: A CSS a weboldalak megjelenéséért felelős stílusnyelv. Segítségével beállítható a színek, méretek, elrendezések és animációk kinézete. A CSS3 támogatja a reszponzív megjelenést, például flexbox és media query használatával.
 
-header {
-  height: 100px;
-  background-color: #3939c8;
-  color: white;
+CSS
+
+A CSS (Cascading Style Sheets) a weboldalak megjelenéséért felelős stílusleíró nyelv.
+Segítségével állíthatók be a színek, betűtípusok, méretek és az elrendezés.
+A HTML elemek kinézetét szabályozza.
+
+Technológia	Értékelés
+CSS	⭐⭐⭐⭐☆
+body {
+  background-color: #f0f0f0;
 }
-JavaScript: Egy programozási nyelv, amely dinamikus működést biztosít a weboldalak számára. Segítségével eseményeket kezelhetünk, adatokat módosíthatunk és interaktív funkciókat valósíthatunk meg. A böngészők natívan támogatják.
 
-const year = new Date().getFullYear();
-console.log(year);
-GIT	HTML	CSS	JS
-	⭐⭐⭐⭐	⭐⭐	⭐⭐⭐
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+JavaScript
+
+A JavaScript egy programozási nyelv, amely dinamikussá és interaktívvá teszi a weboldalakat.
+Eseményeket kezel, logikát valósít meg és módosítja a HTML tartalmát futás közben.
+Közvetlenül a böngészőben fut.
+
+Technológia	Értékelés
+JavaScript	⭐⭐⭐⭐⭐
+document.getElementById("gomb").addEventListener("click", function () {
+  alert("Szia! Ez egy JavaScript esemény.");
+});
