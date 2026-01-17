@@ -28,8 +28,9 @@ HTML
 A HTML egy leíró nyelv, amelyet a böngészők értelmeznek, és amely meghatározza egy weboldal szerkezetét és tartalmát.
 Az oldal elemei úgynevezett tagekből állnak (<tagnev></tagnev>).
 A HTML adja a weboldal alapját.
-Technológia	Értékelés
-HTML	⭐⭐⭐☆☆
+| Technológia | Értékelés |
+|-------------|-----------|
+| HTML        | ⭐⭐⭐☆☆|
 ```
 <!DOCTYPE html>
 <html>
@@ -47,8 +48,9 @@ CSS
 A CSS (Cascading Style Sheets) a weboldalak megjelenéséért felelős stílusleíró nyelv.
 Segítségével állíthatók be a színek, betűtípusok, méretek és az elrendezés.
 A HTML elemek kinézetét szabályozza.
-Technológia	Értékelés
-CSS	⭐⭐⭐☆☆
+| Technológia | Értékelés |
+|-------------|-----------|
+| CSS         | ⭐⭐⭐☆☆|
 ```
 body {
   background-color: #f0f0f0;
@@ -64,8 +66,9 @@ JavaScript
 A JavaScript egy programozási nyelv, amely dinamikussá és interaktívvá teszi a weboldalakat.
 Eseményeket kezel, logikát valósít meg és módosítja a HTML tartalmát futás közben.
 Közvetlenül a böngészőben fut.
-Technológia	Értékelés
-JavaScript	⭐☆☆☆☆
+| Technológia | Értékelés |
+|-------------|-----------|
+| JS        | ⭐☆☆☆☆|
 ```
 document.getElementById("gomb").addEventListener("click", function () {
   alert("Szia! Ez egy JavaScript esemény.");
