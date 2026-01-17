@@ -1,0 +1,58 @@
+/* Alapbeállítások */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Fejléc */
+header {
+    height: 100px;
+    padding: 10px;
+    background-color: #3939c8;
+    color: white;
+    box-sizing: border-box;
+}
+
+/* Tartalmi rész */
+main {
+    background-color: #aaaaaa;
+    color: black;
+    padding: 20px;
+}
+
+/* Képek gridje */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+}
+
+/* Lábléc */
+footer {
+    height: 150px;
+    padding: 20px;
+    background-color: #193968;
+    color: white;
+    border-top: 1px solid white;
+    box-sizing: border-box;
+}
+
+footer p {
+    height: calc(100% - 0px); /* kitölti a láblécet padding után */
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Media query – letörési pont */
+@media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: 1fr;
+    }
+}
