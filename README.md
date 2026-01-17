@@ -1,22 +1,25 @@
-Webfejlesztési alaptechnológiák
-Felhasznált technológiák
+Semmi mást nem kell vele csinálnod.
 
-GIT
+# Webfejlesztési alaptechnológiák
 
-HTML
+## Felhasznált technológiák
+- GIT
+- HTML
+- CSS3
+- JavaScript
 
-CSS3
+---
 
-JavaScript
-
-GIT
-
-A GIT egy verziókezelő rendszer, amely lehetővé teszi a forráskód változásainak nyomon követését.
-Segít több fejlesztő egyidejű munkájának összehangolásában, valamint a hibák visszakövetésében.
+## GIT
+A GIT egy verziókezelő rendszer, amely lehetővé teszi a forráskód változásainak nyomon követését.  
+Segít több fejlesztő egyidejű munkájának összehangolásában, valamint a hibák visszakövetésében.  
 Fontos alapfogalmai: repository, commit, branch, merge.
 
-Technológia	Értékelés
-GIT	⭐⭐⭐⭐☆
+| Technológia | Értékelés |
+|-------------|-----------|
+| GIT         | ⭐⭐⭐⭐☆     |
+
+```bash
 git init
 git add .
 git commit -m "Első commit"
