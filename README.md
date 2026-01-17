@@ -16,7 +16,7 @@ Fontos alapfogalmai: repository, commit, branch, merge.
 ### Technológia értékelés
 | Technológia | Értékelés |
 |-------------|-----------|
-| GIT         | ⭐⭐⭐⭐☆     |
+| GIT         | ☆☆☆☆☆  |
 
 ```bash
 git init
@@ -29,7 +29,7 @@ A HTML egy leíró nyelv, amelyet a böngészők értelmeznek, és amely meghat�
 Az oldal elemei úgynevezett tagekből állnak (<tagnev></tagnev>).
 A HTML adja a weboldal alapját.
 Technológia	Értékelés
-HTML	⭐⭐⭐⭐⭐
+HTML	⭐⭐⭐☆☆
 ```
 <!DOCTYPE html>
 <html>
@@ -48,7 +48,7 @@ A CSS (Cascading Style Sheets) a weboldalak megjelenéséért felelős stílusle
 Segítségével állíthatók be a színek, betűtípusok, méretek és az elrendezés.
 A HTML elemek kinézetét szabályozza.
 Technológia	Értékelés
-CSS	⭐⭐⭐⭐☆
+CSS	⭐⭐⭐☆☆
 ```
 body {
   background-color: #f0f0f0;
@@ -65,7 +65,7 @@ A JavaScript egy programozási nyelv, amely dinamikussá és interaktívvá tesz
 Eseményeket kezel, logikát valósít meg és módosítja a HTML tartalmát futás közben.
 Közvetlenül a böngészőben fut.
 Technológia	Értékelés
-JavaScript	⭐⭐⭐⭐⭐
+JavaScript	⭐☆☆☆☆
 ```
 document.getElementById("gomb").addEventListener("click", function () {
   alert("Szia! Ez egy JavaScript esemény.");
